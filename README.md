@@ -1,6 +1,6 @@
 # Charity Website
 
-A Vue 3 static website template for a charity organization.
+Saving Kidneys
 
 ## Project Setup
 
