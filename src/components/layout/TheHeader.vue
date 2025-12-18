@@ -129,6 +129,11 @@ const toggleMobileEducation = () => {
                   {{ link.name }}
                 </RouterLink>
               </li>
+              <li>
+                <a href="https://www.amazon.com/dp/1642994316" class="dropdown-link" target="_blank" rel="noopener" @click="closeEducation">
+                  Book: Why Not Me?
+                </a>
+              </li>
             </ul>
           </li>
           <li v-for="link in navLinksAfterEducation" :key="link.path" class="nav-item-mobile">
