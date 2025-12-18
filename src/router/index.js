@@ -41,7 +41,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/saving-kidneys/'),
+  history: createWebHistory('/'),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
