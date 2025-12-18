@@ -10,11 +10,11 @@
         <div class="hero-content">
           <h1 class="hero-title">
             <!-- Add your main headline here -->
-            Making a Difference Together
+            Bringing awareness to your health!
           </h1>
           <p class="hero-subtitle">
             <!-- Add your tagline or brief description here -->
-           Raising awareness about preventive behaviors, early detection, and a healthy lifestyle to stop the progression of Chronic Kidney Disease
+           Founded by WallACE S. Green Sr., Health & Awareness, Inc is a 501 (c)(3) organization dedicated to raising awareness about preventive behaviors, early detection, and a healthy lifestyle to stop the progression of Chronic Kidney Disease
           </p>
           <div class="hero-actions">
             <RouterLink to="/donate" class="btn btn-primary btn-lg">
@@ -52,23 +52,6 @@
       </div>
     </section>
 
-    <!-- Mission Preview Section -->
-    <section class="section mission-preview">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Our Mission</h2>
-          <p class="section-subtitle">
-            <!-- Add your mission statement preview here -->
-            Our mission is to bring awareness to kidney health! Health & Awareness, Inc is a 501 (c)(3) organization that educates individuals in the community by raising awareness about preventive behaviors, early detection, and a healthy lifestyle to stop the progression of Chronic Kidney Disease.
-          </p>
-        </div>
-        <div class="mission-content">
-          <RouterLink to="/mission" class="btn btn-secondary">
-            Learn About Our Mission
-          </RouterLink>
-        </div>
-      </div>
-    </section>
 
     <!-- Programs/Services Section -->
     <section class="section programs-section">
@@ -103,20 +86,35 @@
       </div>
     </section>
 
-    <!-- Call to Action Section -->
-    <section class="section cta-section">
+    <!-- Get Involved CTA -->
+    <section class="section volunteer-section">
       <div class="container">
-        <div class="cta-content">
-          <h2 class="cta-title">Ready to Make a Difference?</h2>
+        <div class="volunteer-content">
+          <h2 class="cta-title">Want to Get Involved?</h2>
           <p class="cta-text">
-            Your support helps us continue our vital work in the community.
+            We're always looking for passionate people to get involved and further our mission of educating and raising awareness about chronic kidney disease. 
+            Whether you can spare a few hours or want to make a regular commitment, we have opportunities for you to volunteer, sponsor, or partner with our charity.
           </p>
-          <div class="cta-actions">
-            <RouterLink to="/donate" class="btn btn-primary btn-lg">
-              Donate Today
+          <div class="involvement-options">
+            <RouterLink to="/donate" class="involvement-card">
+              <div class="involvement-icon">💝</div>
+              <h3>Donate</h3>
+              <p>Support our mission with a financial contribution</p>
             </RouterLink>
-            <RouterLink to="/contact" class="btn btn-outline btn-lg">
-              Get Involved
+            <RouterLink to="/contact" class="involvement-card">
+              <div class="involvement-icon">🤝</div>
+              <h3>Volunteer</h3>
+              <p>Give your time to help in our programs</p>
+            </RouterLink>
+            <RouterLink to="/contact" class="involvement-card">
+              <div class="involvement-icon">⭐</div>
+              <h3>Sponsor</h3>
+              <p>Sponsor an event or program</p>
+            </RouterLink>
+            <RouterLink to="/contact" class="involvement-card">
+              <div class="involvement-icon">🏢</div>
+              <h3>Partner</h3>
+              <p>Partner with us as an organization</p>
             </RouterLink>
           </div>
         </div>
@@ -149,6 +147,85 @@
 </template>
 
 <style scoped>
+  /* Volunteer Section */
+.volunteer-section {
+  color: var(--color-white);
+  background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-dark) 100%);
+}
+
+.volunteer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.volunteer-content > h2 {
+  margin-bottom: var(--spacing-4);
+}
+
+.volunteer-content > p {
+
+  margin-bottom: var(--spacing-8);
+}
+
+.involvement-options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-6);
+}
+
+.involvement-card {
+  background-color: var(--color-white);
+  padding: var(--spacing-6);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+  text-align: center;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.involvement-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.involvement-icon {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-3);
+}
+
+.involvement-card h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-2);
+  color: var(--color-gray-900);
+}
+
+.involvement-card p {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  margin-bottom: 0;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .involvement-options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .involvement-options {
+    grid-template-columns: 1fr;
+  }
+}
 /* Hero Section */
 .hero {
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);

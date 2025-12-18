@@ -5,32 +5,59 @@
 <template>
   <div class="about-page">
     <!-- Page Header -->
-    <section class="page-header">
-      <div class="container">
-        <h1 class="page-title">About Us</h1>
-        <p class="page-subtitle">
-          <!-- Add your about page tagline -->
-          Learn more about who we are and what drives us.
-        </p>
-      </div>
-    </section>
 
     <!-- Story Section -->
     <section class="section">
       <div class="container">
         <div class="content-grid">
           <div class="content-text">
-            <h2>Our Story</h2>
+            <h2>About Us</h2>
             <p>
               <!-- Add your organization's story here -->
               Health & Awareness, Inc is a faith-based 501 (c)(3) organization that educates individuals in the community by raising awareness about preventive behaviors, early detection, and a healthy lifestyle to stop the progression of Chronic Kidney Disease. 
             </p>
+            <p>
+              Disclaimer: Health & Awareness is not a healthcare provider. Any health-related information or advice shared is for awareness and informational purposes only and should not be considered a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition or diagnosis.
+            </p>
           </div>
           <div class="content-image">
             <!-- Add an image here -->
-            <div class="image-placeholder">
-              <span>Image</span>
+            <img src="/assets/images/wallace4.png" alt="Wallace S. Green Sr." class="story-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Team</h2>
+          <p class="section-subtitle">
+            Meet the dedicated people behind our mission.
+          </p>
+        </div>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="member-photo">
+              <div class="photo-placeholder"></div>
             </div>
+            <h3 class="member-name">Team Member Name</h3>
+            <p class="member-role">Role / Title</p>
+          </div>
+          <div class="team-member">
+            <div class="member-photo">
+              <div class="photo-placeholder"></div>
+            </div>
+            <h3 class="member-name">Team Member Name</h3>
+            <p class="member-role">Role / Title</p>
+          </div>
+          <div class="team-member">
+            <div class="member-photo">
+              <div class="photo-placeholder"></div>
+            </div>
+            <h3 class="member-name">Team Member Name</h3>
+            <p class="member-role">Role / Title</p>
           </div>
         </div>
       </div>
@@ -122,40 +149,7 @@
       </div>
     </section>
 
-    <!-- Team Section -->
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Our Team</h2>
-          <p class="section-subtitle">
-            Meet the dedicated people behind our mission.
-          </p>
-        </div>
-        <div class="team-grid">
-          <div class="team-member">
-            <div class="member-photo">
-              <div class="photo-placeholder"></div>
-            </div>
-            <h3 class="member-name">Team Member Name</h3>
-            <p class="member-role">Role / Title</p>
-          </div>
-          <div class="team-member">
-            <div class="member-photo">
-              <div class="photo-placeholder"></div>
-            </div>
-            <h3 class="member-name">Team Member Name</h3>
-            <p class="member-role">Role / Title</p>
-          </div>
-          <div class="team-member">
-            <div class="member-photo">
-              <div class="photo-placeholder"></div>
-            </div>
-            <h3 class="member-name">Team Member Name</h3>
-            <p class="member-role">Role / Title</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    
   </div>
 </template>
 
@@ -205,6 +199,12 @@
   justify-content: center;
   color: var(--color-gray-500);
   font-size: var(--font-size-lg);
+}
+
+.story-image {
+  width: 100%;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
 }
 
 /* Founder Section */

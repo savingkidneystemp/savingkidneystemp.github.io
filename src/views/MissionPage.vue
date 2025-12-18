@@ -5,7 +5,7 @@
 <template>
   <div class="mission-page">
     <!-- Page Header -->
-    <section class="page-header">
+    <section class="page-header" style="display: none;">
       <div class="container">
         <h1 class="page-title">Our Mission</h1>
         <p class="page-subtitle">
@@ -33,10 +33,10 @@
       <div class="container">
         <div class="content-grid">
           <div class="content-text">
-            <h2>Our Vision</h2>
+            <h2>Our Mission</h2>
             <p>
               <!-- Add your vision description here -->
-              Our Vision is to decrease the rising numbers of chronic kidney failure by bridging the knowledge gap for better kidney care. We have adopted easy to understand rules that we call "Common Sense Rules".  The Common Sense Rules  focuses on understanding lab test results, forget dieting and change eating habits instead, read and follow the nutritional fact label, know the facts about organ donation and remembering there is no such thing as a one size fits all treatment plan.
+              Our Mision is to decrease the rising numbers of chronic kidney failure by bridging the knowledge gap for better kidney care. We have adopted easy to understand rules that we call "Common Sense Rules".  The Common Sense Rules  focuses on understanding lab test results, forget dieting and change eating habits instead, read and follow the nutritional fact label, know the facts about organ donation and remembering there is no such thing as a one size fits all treatment plan.
             </p>
           </div>
           <div class="content-image">
@@ -54,7 +54,7 @@
         <div class="section-header">
           <h2 class="section-title">Our Focus</h2>
           <p class="section-subtitle">
-            Addressing the leading causes of Chronic Kidney Disease
+            Addressing the leading causes of Chronic Kidney Disease.
           </p>
         </div>
         <div class="focus-content">
@@ -66,7 +66,7 @@
     </section>
 
     <!-- Goals Section -->
-    <section class="section goals-section">
+    <section class="section goals-section" style="display: none;">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Our Goals</h2>
@@ -100,7 +100,7 @@
     </section>
 
     <!-- Impact Section -->
-    <section class="section">
+    <section class="section" style="display: none;">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Our Impact</h2>

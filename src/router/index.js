@@ -6,6 +6,8 @@ import MissionPage from '../views/MissionPage.vue'
 import ProgramsPage from '../views/ProgramsPage.vue'
 import DonatePage from '../views/DonatePage.vue'
 import ContactPage from '../views/ContactPage.vue'
+import ChronicKidneyEducation from '../views/education/ChronicKidneyEducation.vue'
+import SavingKidneysEducation from '../views/education/SavingKidneysEducation.vue'
 
 const routes = [
   {
@@ -27,6 +29,16 @@ const routes = [
     path: '/mission',
     name: 'Mission',
     component: MissionPage
+  },
+  {
+    path: '/education/chronic-kidney-education',
+    name: 'ChronicKidneyEducation',
+    component: ChronicKidneyEducation
+  },
+  {
+    path: '/education/saving-kidneys',
+    name: 'SavingKidneysEducation',
+    component: SavingKidneysEducation
   },
   {
     path: '/donate',
