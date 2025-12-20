@@ -85,7 +85,7 @@ const socialLinks = [
         <p class="copyright">
           &copy; {{ currentYear }} Health & Awareness, INC. All rights reserved.
         </p>
-        <div class="footer-legal">
+        <div class="footer-legal" style="display: none;">
           <a href="#" class="footer-link">Privacy Policy</a>
           <a href="#" class="footer-link">Terms of Service</a>
         </div>
