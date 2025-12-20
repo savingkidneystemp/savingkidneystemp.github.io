@@ -58,17 +58,17 @@ useHead({
         <div class="team-grid">
           <div class="team-member">
             <div class="member-photo">
-              <div class="photo-placeholder"></div>
+              <img src="/assets/images/wallace4.png" alt="Wallace S. Green Sr." class="photo-placeholder" />
             </div>
-            <h3 class="member-name">Team Member Name</h3>
-            <p class="member-role">Role / Title</p>
+            <h3 class="member-name">Wallace S. Green Sr.</h3>
+            <p class="member-role">Founder</p>
           </div>
           <div class="team-member">
             <div class="member-photo">
-              <div class="photo-placeholder"></div>
+              <img src="/assets/images/wallace4.png" alt="Wallace S. Green Sr." class="photo-placeholder" />
             </div>
-            <h3 class="member-name">Team Member Name</h3>
-            <p class="member-role">Role / Title</p>
+            <h3 class="member-name">Roshawn Foote-Scott</h3>
+            <p class="member-role">President</p>
           </div>
           <div class="team-member">
             <div class="member-photo">

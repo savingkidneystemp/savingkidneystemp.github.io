@@ -250,16 +250,16 @@ onUnmounted(() => {
       </div>
     </section>
 
-    <!-- 14th Annual Caregiver Awards Recap -->
+    <!-- 13th Annual Caregiver Awards Recap -->
     <section class="section feature-section">
       <div class="container">
         <div class="feature-content">
           <div class="feature-text">
-            <h2 class="section-title">14th Annual Caregiver Awards Recap</h2>
-            <p>On November 15th, 2024, Health & Awareness, Inc honored family caregivers at their 14th Annual Caregiver Awards. It was pleasure to continue to honor those who continue to take care of others. We would like to thank all our speakers, emcees, and vendors, and special guest speakers for participating in our 14th Annual Caregiver Awards Event. We appreciate everyone's presence and the encouragement they provided to the caregiver honorees and the guest who attended.</p>
+            <h2 class="section-title">13th Annual Caregiver Awards Recap</h2>
+            <p>On November 15th, 2024, Health & Awareness, Inc honored family caregivers at their 13th Annual Caregiver Awards. It was pleasure to continue to honor those who continue to take care of others. We would like to thank all our speakers, emcees, and vendors, and special guest speakers for participating in our 13th Annual Caregiver Awards Event. We appreciate everyone's presence and the encouragement they provided to the caregiver honorees and the guest who attended.</p>
           </div>
           <div class="feature-image">
-            <img src="/assets/images/14th-caregiver.jpg" alt="14th Annual Caregiver Awards" />
+            <img src="/assets/images/14th-caregiver.jpg" alt="13th Annual Caregiver Awards" />
           </div>
         </div>
       </div>
@@ -620,6 +620,10 @@ onUnmounted(() => {
 .cta-section .btn-primary {
   background-color: var(--color-white);
   color: var(--color-secondary-dark);
+}
+
+ .btn-primary {
+  border: 2px solid var(--color-white);
 }
 
 .cta-section .btn-primary:hover {
