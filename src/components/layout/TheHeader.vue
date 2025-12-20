@@ -51,8 +51,8 @@ const toggleMobileEducation = () => {
       <!-- Top Row: Logo and Donate -->
       <div class="header-top">
         <RouterLink to="/" class="logo" @click="closeMenu">
-          <img src="/assets/images/health-awareness-logo.png" alt="Health & Awareness, INC" class="logo-image" />
-          <span class="logo-text">Health & Awareness, INC</span>
+          <img src="/assets/images/health-awareness-logo.png" alt="Health & Awareness, Inc" class="logo-image" />
+          <span class="logo-text">Health & Awareness, Inc</span>
         </RouterLink>
 
         <!-- Donate Button (Desktop) -->

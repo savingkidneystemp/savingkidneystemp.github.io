@@ -1,5 +1,24 @@
 <script setup>
-// ProgramsPage component
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Our Programs - Health & Awareness, Inc',
+  link: [
+    { rel: 'canonical', href: 'https://savingkidneys.github.io/programs' }
+  ],
+  meta: [
+    { name: 'description', content: 'Explore our programs including food distribution, health workshops, community outreach, and educational seminars about Chronic Kidney Disease.' },
+    { property: 'og:title', content: 'Our Programs - Health & Awareness, Inc' },
+    { property: 'og:description', content: 'Making a difference through education, outreach, and community support.' },
+    { property: 'og:url', content: 'https://savingkidneys.github.io/programs' },
+    { property: 'og:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Our Programs - Health & Awareness, Inc' },
+    { name: 'twitter:description', content: 'Making a difference through education, outreach, and community support.' },
+    { name: 'twitter:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' }
+  ]
+})
+
 const foodDistributionStartYear = 2021
 const yearsSinceFoodDistribution = new Date().getFullYear() - foodDistributionStartYear
 </script>
@@ -76,7 +95,7 @@ const yearsSinceFoodDistribution = new Date().getFullYear() - foodDistributionSt
           <div class="program-content">
             <h2>Health Education Workshops</h2>
             <p>
-              For over 11 years, Health & Awareness, INC has facilitated health workshops throughout 
+              For over 11 years, Health & Awareness, Inc has facilitated health workshops throughout 
               Hampton Roads, Virginia. Our workshops focus on practical, actionable health education.
             </p>
             <p>

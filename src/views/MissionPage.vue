@@ -1,5 +1,23 @@
 <script setup>
-// MissionPage component
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Our Mission - Health & Awareness, Inc',
+  link: [
+    { rel: 'canonical', href: 'https://savingkidneys.github.io/mission' }
+  ],
+  meta: [
+    { name: 'description', content: 'Our mission is to educate communities about preventive behaviors, early detection, and healthy lifestyles to stop the progression of Chronic Kidney Disease.' },
+    { property: 'og:title', content: 'Our Mission - Health & Awareness, Inc' },
+    { property: 'og:description', content: 'Bringing awareness to kidney health through education and community outreach.' },
+    { property: 'og:url', content: 'https://savingkidneys.github.io/mission' },
+    { property: 'og:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Our Mission - Health & Awareness, Inc' },
+    { name: 'twitter:description', content: 'Bringing awareness to kidney health through education and community outreach.' },
+    { name: 'twitter:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' }
+  ]
+})
 </script>
 
 <template>
@@ -59,7 +77,7 @@
         </div>
         <div class="focus-content">
           <p>
-            We educate people about diabetes and high blood pressure which are the two leading risk factors for Chronic Kidney Disease (CKD). Health & Awareness, INC advocates for systematic screening of all patients with diabetes and hypertension for CKD. We encourage preventative behaviors and healthcare compliance to guide people in the right direction for managing their health.
+            We educate people about diabetes and high blood pressure which are the two leading risk factors for Chronic Kidney Disease (CKD). Health & Awareness, Inc advocates for systematic screening of all patients with diabetes and hypertension for CKD. We encourage preventative behaviors and healthcare compliance to guide people in the right direction for managing their health.
           </p>
         </div>
       </div>

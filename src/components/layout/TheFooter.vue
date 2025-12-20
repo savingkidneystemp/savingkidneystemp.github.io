@@ -24,7 +24,7 @@ const socialLinks = [
       <div class="footer-grid">
         <!-- About Section -->
         <div class="footer-section">
-          <h3 class="footer-title">Health & Awareness, INC</h3>
+          <h3 class="footer-title">Health & Awareness, Inc</h3>
           <p class="footer-description">
             <!-- Add your charity's brief description here -->
             Making a difference in our community through compassion, dedication, and action.
@@ -83,7 +83,7 @@ const socialLinks = [
       <!-- Bottom Bar -->
       <div class="footer-bottom">
         <p class="copyright">
-          &copy; {{ currentYear }} Health & Awareness, INC. All rights reserved.
+          &copy; {{ currentYear }} Health & Awareness, Inc. All rights reserved.
         </p>
         <div class="footer-legal" style="display: none;">
           <a href="#" class="footer-link">Privacy Policy</a>
