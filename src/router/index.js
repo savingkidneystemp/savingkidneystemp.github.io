@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import AboutPage from '../views/AboutPage.vue'
 import MissionPage from '../views/MissionPage.vue'
+import FrontDeskOfThePresidentPage from '../views/FrontDeskOfThePresidentPage.vue'
 import ProgramsPage from '../views/ProgramsPage.vue'
 import DonatePage from '../views/DonatePage.vue'
 import ContactPage from '../views/ContactPage.vue'
@@ -29,6 +30,11 @@ const routes = [
     path: '/mission',
     name: 'Mission',
     component: MissionPage
+  },
+  {
+    path: '/front-desk-of-the-president',
+    name: 'FrontDeskOfThePresident',
+    component: FrontDeskOfThePresidentPage
   },
   {
     path: '/education/chronic-kidney-education',

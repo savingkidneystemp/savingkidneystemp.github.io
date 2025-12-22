@@ -9,8 +9,9 @@ const isMobileEducationOpen = ref(false)
 const navLinks = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
-  { name: 'Programs', path: '/programs' },
-  { name: 'Mission', path: '/mission' }
+  { name: 'Mission', path: '/mission' },
+  { name: 'Front Desk of the President', path: '/front-desk-of-the-president' },
+  { name: 'Programs', path: '/programs' }
 ]
 
 const educationLinks = [
